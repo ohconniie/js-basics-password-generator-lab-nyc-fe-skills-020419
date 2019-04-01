@@ -7,9 +7,10 @@ window.addEventListener("load", () => {
     event.preventDefault()
     const input = document.getElementById('passwordlength')
     const howManyCharacters = input.value
+    let startingString = ""
     for (let i = 0; i < howManyCharacters; i++) {
       const randomIndex = (Math.floor(Math.random() * 26))
-      console.log(lowerCaseLetters[randomIndex])
+      startingString += (lowerCaseLetters[randomIndex])
     }
   }
   
