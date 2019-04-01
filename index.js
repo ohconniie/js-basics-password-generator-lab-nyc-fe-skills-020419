@@ -8,7 +8,7 @@ window.addEventListener("load", () => {
     const input = document.getElementById('passwordlength')
     const howManyCharacters = input.value
     for (let i = 0; i <howManyCharacters; i++) {
-      
+      console.log('hi')
     }
   }
   
