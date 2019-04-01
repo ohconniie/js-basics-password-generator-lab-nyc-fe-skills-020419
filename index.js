@@ -6,7 +6,8 @@ window.addEventListener("load", () => {
   function onSubmit(event) {
     event.preventDefault()
     const input = document.getElementById('passwordlength')
-    console.log(input.value)
+    const howManyCharacters = input.value
+    
   }
   
   document.addEventListener('submit', onSubmit)
