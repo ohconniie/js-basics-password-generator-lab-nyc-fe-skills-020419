@@ -9,6 +9,7 @@ window.addEventListener("load", () => {
     const howManyCharacters = input.value
     for (let i = 0; i < howManyCharacters; i++) {
       const randomIndex = (Math.floor(Math.random() * 26))
+      console.log(lowerCaseLetters[randomIndex])
     }
   }
   
