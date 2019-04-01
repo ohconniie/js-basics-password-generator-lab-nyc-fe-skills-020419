@@ -7,7 +7,7 @@ window.addEventListener("load", () => {
     event.preventDefault()
     const input = document.getElementById('passwordlength')
     const howManyCharacters = input.value
-    for (let i = 0; i <howManyCharacters; i++) {
+    for (let i = 0; i < howManyCharacters; i++) {
       console.log(Math.floor(Math.random() * 26))
     }
   }
