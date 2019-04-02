@@ -9,7 +9,11 @@ window.addEventListener("load", () => {
   function onSubmit(event) {
     event.preventDefault()
     const input = document.getElementById('passwordlength')
-    const howManyCharacters = input.value
+    let howManyCharacters = input.value
+    if (input.value < 4) {
+      howManyCharacters = 4
+    }
+    
     let startingString = ""
     for (let i = 0; i < howManyCharacters; i++) {
       if (startingString.length < howManyCharacters) {
