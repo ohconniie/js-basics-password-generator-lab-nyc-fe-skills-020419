@@ -12,6 +12,7 @@ window.addEventListener("load", () => {
     const howManyCharacters = input.value
     let startingString = ""
     for (let i = 0; i < howManyCharacters; i++) {
+      if (startingString.length < howManyCharacters)
       let randomIndex = (Math.floor(Math.random() * lowerCaseLetters.length))
       startingString += (lowerCaseLetters[randomIndex])
       
