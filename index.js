@@ -4,6 +4,7 @@ window.addEventListener("load", () => {
   const lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz"
   const upperCaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
   const numbers = "012345678"
+  const specialCharacters = "012345678"
   
   function onSubmit(event) {
     event.preventDefault()
