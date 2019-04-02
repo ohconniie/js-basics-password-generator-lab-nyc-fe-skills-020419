@@ -2,6 +2,7 @@ window.addEventListener("load", () => {
   //start your code here
   
   const lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz"
+  const lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz"
   
   function onSubmit(event) {
     event.preventDefault()
