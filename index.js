@@ -20,6 +20,9 @@ window.addEventListener("load", () => {
       
       const randomIndex = (Math.floor(Math.random() * numbers.length))
       startingString += (numbers[randomIndex])
+      
+      const randomIndex = (Math.floor(Math.random() * specialCharacters.length))
+      startingString += (specialCharacters[randomIndex])
     }
     console.log(startingString)
     const output = document.getElementById('result')
