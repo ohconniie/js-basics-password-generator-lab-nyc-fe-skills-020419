@@ -14,6 +14,9 @@ window.addEventListener("load", () => {
     for (let i = 0; i < howManyCharacters; i++) {
       const randomIndex = (Math.floor(Math.random() * lowerCaseLetters.length))
       startingString += (lowerCaseLetters[randomIndex])
+      
+      const randomIndex = (Math.floor(Math.random() * upperCaseLetters.length))
+      startingString += (lowerCaseLetters[randomIndex])
     }
     console.log(startingString)
     const output = document.getElementById('result')
