@@ -16,10 +16,10 @@ window.addEventListener("load", () => {
       startingString += (lowerCaseLetters[randomIndex])
       
       const randomIndex = (Math.floor(Math.random() * upperCaseLetters.length))
-      startingString += (lowerCaseLetters[randomIndex])
+      startingString += (upperCaseLetters[randomIndex])
       
-      const randomIndex = (Math.floor(Math.random() * upperCaseLetters.length))
-      startingString += (lowerCaseLetters[randomIndex])
+      const randomIndex = (Math.floor(Math.random() * numbers.length))
+      startingString += (numbers[randomIndex])
     }
     console.log(startingString)
     const output = document.getElementById('result')
