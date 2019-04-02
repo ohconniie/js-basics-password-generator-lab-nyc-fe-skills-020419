@@ -12,16 +12,16 @@ window.addEventListener("load", () => {
     const howManyCharacters = input.value
     let startingString = ""
     for (let i = 0; i < howManyCharacters; i++) {
-      const randomIndex = (Math.floor(Math.random() * lowerCaseLetters.length))
+      let randomIndex = (Math.floor(Math.random() * lowerCaseLetters.length))
       startingString += (lowerCaseLetters[randomIndex])
       
-      const randomIndex = (Math.floor(Math.random() * upperCaseLetters.length))
+      randomIndex = (Math.floor(Math.random() * upperCaseLetters.length))
       startingString += (upperCaseLetters[randomIndex])
       
-      const randomIndex = (Math.floor(Math.random() * numbers.length))
+      randomIndex = (Math.floor(Math.random() * numbers.length))
       startingString += (numbers[randomIndex])
       
-      const randomIndex = (Math.floor(Math.random() * specialCharacters.length))
+      randomIndex = (Math.floor(Math.random() * specialCharacters.length))
       startingString += (specialCharacters[randomIndex])
     }
     console.log(startingString)
