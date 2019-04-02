@@ -2,7 +2,8 @@ window.addEventListener("load", () => {
   //start your code here
   
   const lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz"
-  const lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz"
+  const lowerCaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+  const numbers = 
   
   function onSubmit(event) {
     event.preventDefault()
